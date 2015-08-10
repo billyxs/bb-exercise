@@ -5,9 +5,9 @@ To setup this project run
 npm install && bower install
 ```
 
-## Build & development
+## Running the app
 
-Run `grunt` for building and `grunt serve` for preview.
+Run `grunt serve` to view the app.
 
 ## Testing
 
