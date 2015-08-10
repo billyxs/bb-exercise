@@ -1,7 +1,9 @@
-# beachbody
+# bb-exercise
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.1.
+To setup this project run
+```bash
+npm install && bower install
+```
 
 ## Build & development
 
