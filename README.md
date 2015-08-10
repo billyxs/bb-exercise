@@ -2,7 +2,7 @@
 
 To setup this project run
 ```bash
-npm install
+npm install && bower install
 ```
 
 ## Running the app
