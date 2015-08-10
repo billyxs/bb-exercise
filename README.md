@@ -2,14 +2,14 @@
 
 To setup this project run
 ```bash
-npm install && bower install
+npm install
 ```
 
 ## Running the app
 
 Run `grunt serve` from the project root to view the app.
 
-You may also run a web server from the /app/ directory to view app. 
+You may also run a web server from the /app/ directory directly. 
 
 Example with the http-server 
 ```bash
