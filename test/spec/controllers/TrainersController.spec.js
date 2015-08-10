@@ -7,17 +7,61 @@ describe('TrainersController', function() {
    beforeEach(module('beachbody'));
 
    var mockTrainersData = {items: [
-     {name: 'Trainer 1',
+     {
+       "displayName": "Tony Horton",
+       "id": "tony-horton",
+       "description": "",
        "images": {
+         "thumbnail.all.main": {
+           "orient": "portrait",
+           "url": "imgclub.teambeachbody.com\\/club-teambeachbody\\/image\\/upload\\/v1419297113\\/TonyHorton_Trainer_Thumb_540x672_umumne.png",
+           "target": [
+             "all",
+             "small"
+           ],
+           "type": "png",
+           "width": 540,
+           "height": 672
+         },
          "thumbnail.stv.main": {
-           "url": "imgclub.teambeachbody.com\\/club-teambeachbody\\/image\\/upload\\/v1433200373\\/Trainer\\/TonyHorton_Trainer_STV_Thumb_540x672_20150630.jpg"
+           "orient": "portrait",
+           "url": "imgclub.teambeachbody.com\\/club-teambeachbody\\/image\\/upload\\/v1433200373\\/Trainer\\/TonyHorton_Trainer_STV_Thumb_540x672_20150630.jpg",
+           "target": [
+             "all",
+             "small"
+           ],
+           "type": "png",
+           "width": 540,
+           "height": 672
          }
        }
      },
-     { name: 'Trainer 2',
+     {
+       "displayName": "Autumn Calabrese",
+       "id": "autumn-calabrese",
+       "description": "",
        "images": {
+         "thumbnail.all.main": {
+           "orient": "portrait",
+           "url": "imgclub.teambeachbody.com\\/club-teambeachbody\\/image\\/upload\\/v1419297112\\/AutumnCalabrese_Trainer_Thumb_540x672_ywzsch.png",
+           "target": [
+             "all",
+             "small"
+           ],
+           "type": "png",
+           "width": 540,
+           "height": 672
+         },
          "thumbnail.stv.main": {
-           "url": "imgclub.teambeachbody.com\\/club-teambeachbody\\/image\\/upload\\/v1433200373\\/Trainer\\/TonyHorton_Trainer_STV_Thumb_540x672_20150630.jpg"
+           "orient": "portrait",
+           "url": "imgclub.teambeachbody.com\\/club-teambeachbody\\/image\\/upload\\/v1433200378\\/Trainer\\/AutumnCalabrese_Trainer_STV_Thumb_540x672_20150630.jpg",
+           "target": [
+             "all",
+             "small"
+           ],
+           "type": "png",
+           "width": 540,
+           "height": 672
          }
        }
      }

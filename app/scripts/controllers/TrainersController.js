@@ -8,7 +8,7 @@ angular
         try {
           value.image = '//' + value.images['thumbnail.stv.main'].url;
         } catch(e) {
-          
+
         }
       });
 
