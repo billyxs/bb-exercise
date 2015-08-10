@@ -1,6 +1,7 @@
 <h2>Trainers</h2>
 <hr />
-<ul class="list">
+<p class="alert alert-info" ng-if="error">{{ error }}</p>
+<ul class="list" ng-if="trainers">
   <li ng-repeat="trainer in trainers" class="row">
     <div class="col-sm-3 col-xs-4">
       <img ng-src="{{trainer.image}}" alt="{{trainer.displayName}}" class="list-image" />
