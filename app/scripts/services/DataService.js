@@ -4,7 +4,7 @@ angular
     'use strict';
 
     var AUTH_CODE = 'BBOD123';
-    var URL_GET_TRAINERS = 'data/trainers.json';//  'http://api-club.teambeachbody.com/trainers';
+    var URL_GET_TRAINERS = 'data/trainers.json';
     var EVENTS = {
       GET_TRAINERS_SUCCESS: 'GET_TRAINERS_SUCCESS',
       GET_TRAINERS_ERROR: 'GET_TRAINERS_ERROR'
